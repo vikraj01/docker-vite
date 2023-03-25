@@ -8,8 +8,12 @@ export default defineConfig({
     watch: {
       usePolling: true,
     },
+    hmr:{
+      clientPort: 3000
+    },
     host: true, // needed for the Docker Container port mapping to work
     strictPort: true,
     port: 3000, // replace this port with any number you want
   }, 
 })
+

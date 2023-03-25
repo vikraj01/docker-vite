@@ -26,10 +26,10 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Change Your Mama
+        Change our Mama Hello Hiell world
       </p>
     </div>
   )
 }
 
-export default App
+export default App   
