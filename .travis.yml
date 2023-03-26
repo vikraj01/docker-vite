@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t vikashraj1825/docker-vite -f Dockerfile.dev .
+
+script:
+  - docker run vikashraj1825/docker-vite npm run test -- --coverage
