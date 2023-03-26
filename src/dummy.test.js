@@ -25,6 +25,6 @@ function getRandomNumber() {
   return Math.floor(Math.random() * 100) + 1
 }
 
-it('returns a number greater than or equal to 1', () => {
+it('returns  number greater than or equal to 1', () => {
   expect(getRandomNumber()).toBeGreaterThanOrEqual(1)
 })
